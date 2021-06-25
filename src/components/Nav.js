@@ -52,7 +52,7 @@ const NavStyles = styled.div`
   }
 
   /* create a hover state over our li links */
-  .nav-links li:hover {
+  .navbar-links li:hover {
     /* turn background grey on hover */
     background-color: #555;
   }
