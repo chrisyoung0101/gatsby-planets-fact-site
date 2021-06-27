@@ -1,6 +1,6 @@
 var plugins = [{
-      plugin: require('/Users/chrisyoung/Documents/web-development/gatsby/planets-fact-site/gatsby/gatsby-ssr'),
-      options: {"plugins":[]},
+      plugin: require('/Users/chrisyoung/Documents/web-development/gatsby/planets-fact-site/gatsby/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      options: {"plugins":[],"fonts":["Antonio:500","Spartan:400,700"],"display":"swap"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
