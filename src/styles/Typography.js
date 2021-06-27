@@ -8,8 +8,12 @@ const Typography = createGlobalStyle`
 
 html {
     font-family: 'Spartan', sans-serif;
-    ${'' /* font-family: 'Antonio', sans-serif;
-} */}
+    font-weight: 400;
+    }
+
+h1 {
+    font-family: 'Antonio', sans-serif;
+}
 
 `;
 
