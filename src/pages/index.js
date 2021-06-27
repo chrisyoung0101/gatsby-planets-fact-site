@@ -5,7 +5,7 @@ import Nav from '../components/Nav';
 export default function Mercury() {
   return (
     <Layout>
-      <p>Hey! I'm Mercury</p>
+      <h1>Hey! I'm Mercury</h1>
     </Layout>
   );
 }
