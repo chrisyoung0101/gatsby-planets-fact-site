@@ -13,6 +13,7 @@ const GlobalStyles = createGlobalStyle`
   --white: #FFFFFF;
   --black: #070724;
   --grey: #38384F;
+  --lightgrey: #838391;
   --lightblue: #419EBB;
   --orange: #EDA249;
   --violet: #6F2ED6;
@@ -27,8 +28,10 @@ const GlobalStyles = createGlobalStyle`
 /* The <html> HTML element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element. */
 html {
   background-image: url(${backgroundstars});
-  background-color: grey;
+  background-color: var(--black);
 }
+
+
 
 /* makes styling our widths much easier */
 * {

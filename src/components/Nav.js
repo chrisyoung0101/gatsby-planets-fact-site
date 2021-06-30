@@ -12,9 +12,21 @@ const NavStyles = styled.div`
     /* note that I'd like to say lined up horizontally but this is flexbox and our direction can change */
     align-items: center;
     /* give the navbar a background color */
-    background-color: #333;
+    background-color: var(--black);
     /* give the text in the navbar a color */
     color: white;
+    height: 85px;
+  }
+
+  .rectangle {
+    position: absolute;
+    width: 100vw;
+    height: 1px;
+    left: 0px;
+    top: 85px;
+    background-color: var(--white);
+    mix-blend-mode: normal;
+    opacity: 0.2;
   }
 
   .title {
@@ -92,6 +104,7 @@ export default function Nav() {
           </ul>
         </div>
       </nav>
+      <div className="rectangle" />
     </NavStyles>
   );
 }

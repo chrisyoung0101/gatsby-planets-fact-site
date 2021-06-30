@@ -6,6 +6,7 @@ body {
     font-family: 'Spartan', sans-serif;
     font-weight: 400;
     font-size: 0.875rem;
+    color: var(--white);
 }
 
 h1 {
