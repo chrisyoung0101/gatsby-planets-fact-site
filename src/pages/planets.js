@@ -1,12 +1,13 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import PlanetList from '../components/PlanetList';
 
 export default function PlanetsPage({ data }) {
   console.log({ data });
   const planets = data.planets.nodes;
   return (
     <>
-      <p>This page is all about the planet {planets.name}</p>
+      <PlanetList planets={planets} />
     </>
   );
 }
@@ -20,6 +21,18 @@ export const query = graphql`
         slug {
           current
         }
+        overviewContent
+        overviewSource
+        # overviewImage {
+        #   asset {
+        #     fixed(width: 200, height: 200) {
+        #       ...GatsbySanityImageFixed
+        #     }
+        #     fluid(maxWidth: 400) {
+
+        #       ...GatsbySanityImageFluid
+        #     }
+        #   }
       }
     }
   }
