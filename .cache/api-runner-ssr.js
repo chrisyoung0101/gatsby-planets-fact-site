@@ -1,4 +1,10 @@
 var plugins = [{
+      plugin: require('/Users/chrisyoung/Documents/web-development/gatsby/planets-fact-site/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/chrisyoung/Documents/web-development/gatsby/planets-fact-site/gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      options: {"plugins":[],"projectId":"rua1qhj8","dataset":"production","watchMode":true},
+    },{
       plugin: require('/Users/chrisyoung/Documents/web-development/gatsby/planets-fact-site/gatsby/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":["Antonio:500","Spartan:400,700"],"display":"swap"},
     }]
