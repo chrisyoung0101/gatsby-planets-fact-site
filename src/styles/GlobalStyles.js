@@ -22,6 +22,7 @@ const GlobalStyles = createGlobalStyle`
   --teal: #1EC2A4;
 }
 
+
 /* html type selector */
 /* type as in html, p, ul, etc */
 /* CSS type selector matches elements by node name */
