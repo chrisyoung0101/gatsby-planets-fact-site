@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{fQ0M:function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return l}));var a=t("q1tI"),r=t.n(a),u=t("85Sb");function l(){return r.a.createElement("div",null,r.a.createElement(u.a,null),r.a.createElement("p",null,"Hey! I'm Earth"))}}}]);
+//# sourceMappingURL=component---src-pages-earth-js-2acd26f155449f7fb8da.js.map

@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{vIN2:function(n,e,t){"use strict";t.r(e),t.d(e,"default",(function(){return l}));var a=t("q1tI"),u=t.n(a),r=t("85Sb");function l(){return u.a.createElement("div",null,u.a.createElement(r.a,null),u.a.createElement("p",null,"Hey! I'm Uranus"))}}}]);
+//# sourceMappingURL=component---src-pages-uranus-js-7735775944365590337e.js.map

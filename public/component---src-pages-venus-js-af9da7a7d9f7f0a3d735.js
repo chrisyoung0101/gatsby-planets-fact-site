@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{LdO5:function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return r}));var u=t("q1tI"),a=t.n(u),l=t("85Sb");function r(){return a.a.createElement("div",null,a.a.createElement(l.a,null),a.a.createElement("p",null,"Hey! I'm Venus"))}}}]);
+//# sourceMappingURL=component---src-pages-venus-js-af9da7a7d9f7f0a3d735.js.map

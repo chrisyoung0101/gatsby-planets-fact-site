@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{FhyW:function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return l}));var a=t("q1tI"),r=t.n(a),u=t("85Sb");function l(){return r.a.createElement("div",null,r.a.createElement(u.a,null),r.a.createElement("p",null,"Hey! I'm Mars"))}}}]);
+//# sourceMappingURL=component---src-pages-mars-js-73bf65e83c82730475b8.js.map

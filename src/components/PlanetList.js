@@ -8,7 +8,6 @@ function SinglePlanet({ planet }) {
     <Layout>
       <div>
         <Img fixed={planet.overviewImage.asset.fixed} />
-        {/* <Img fluid={planet.overviewImage.asset.fluid} /> */}
         <br />
         {planet.overviewContent}
         <br />

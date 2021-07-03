@@ -5,7 +5,6 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/chrisyoung/Documents/web-development/gatsby/planets-fact-site/gatsby/.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/Users/chrisyoung/Documents/web-development/gatsby/planets-fact-site/gatsby/src/pages/404.js"))),
   "component---src-pages-earth-js": hot(preferDefault(require("/Users/chrisyoung/Documents/web-development/gatsby/planets-fact-site/gatsby/src/pages/earth.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/chrisyoung/Documents/web-development/gatsby/planets-fact-site/gatsby/src/pages/index.js"))),

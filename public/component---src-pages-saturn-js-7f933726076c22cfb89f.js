@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{ICDl:function(n,e,t){"use strict";t.r(e),t.d(e,"default",(function(){return r}));var a=t("q1tI"),u=t.n(a),l=t("85Sb");function r(){return u.a.createElement("div",null,u.a.createElement(l.a,null),u.a.createElement("p",null,"Hey! I'm Saturn"))}}}]);
+//# sourceMappingURL=component---src-pages-saturn-js-7f933726076c22cfb89f.js.map

@@ -38,14 +38,3 @@ export const query = graphql`
     }
   }
 `;
-
-// overviewImage {
-//           asset {
-// fixed(width: 200, height: 200) {
-//   ...GatsbySanityImageFixed
-// }
-//             fluid(maxWidth: 400) {
-//               ...GatsbySanityImageFluid
-//             }
-//           }
-//      }
